@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    width: 1920px;
+
+}
+.navbar-one{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+.navbar-one p{
+    font-family: Candara;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+.navbar-two{
+    width: 100%;
+    height: 80px;
+    background: #0F0F0F;
+    display: flex;
+}
+.navbar-two ul{
+    margin-left: 440px;
+    margin-top: 31px;
+    gap: 40px;
+}
+.navbar-two li{
+    display: inline-block;
+
+}
+.navbar-two li a{
+    font-family: Candara;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+
+    /* gray */
+
+    color: #969696;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.card-head{
+    background: url("imgs/Rectangle 3.png");
+    width: 100%;
+    height: 810px;
+}
+.card-head img{
+    margin-left: 800px;
+    margin-top: 160px;
+}
+.card-head h2{
+    width: 730px;
+    height: 96px;
+
+    font-family: Candara;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    margin-top: 80px;
+    margin-left: 595px;
+
+}
+@font-face {
+    font-family: 'PlayfairDisplay-Bold';
+    src: url("/font/PlayfairDisplay-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src: url("/font/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+.cards{
+    width: 1040px;
+    height: 730px;
+
+}
+.card-one h2{
+
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: white;
+    margin-top: 93px;
+}
+.card-one hr{
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-left: 460px;
+    margin-top: 50px;
+}
+.card{
+    width: 260px;
+    height: 325px;
+    background: #191B1C;
+
+}
+.cont-one{
+    display: flex;
+}
+.card img{
+    margin-left: 23px;
+    margin-top: 55px;
+}
+.card-one h3{
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 100;
+
+    /* white */
+    color: #FFFFFF;
+    margin-top: 25px;
+    margin-left: 80px;
+}
+.cont-one p{
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 16px;
+    line-height: 19px;
+
+
+    /* light-gray */
+
+    color: #D0D0D0;
+    margin-top: 10px;
+    margin-left: 80px;
+
+}
+.cards{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 80px;
+    gap: 50px;
+}
+.card-two{
+    width: 880px;
+    height: 730px;
+    background: url("imgs/photo-2.png");
+
+}
+.card-one{
+    width: 1040px;
+    height: 730px;
+}
+.card-two h2{
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 484px;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+.card-two button{
+    width: 130px;
+    height: 42px;
+    background: none;
+    border: 1px solid white;
+    margin-left: 376px;
+    margin-top: 30px;
+
+    font-family: Candara;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    /* white */
+
+    color: #FFFFFF;
+}
+.card-two hr{
+    width: 120px;
+    height: 0px;
+    margin-left: 381px;
+    margin-top: 30px;
+}
+.card-three{
+    width: 1040px;
+    height: 600px;
+}
+.card-three h2{
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+
+    /* white */
+
+    color: #FFFFFF;
+    margin-top: 100px;
+
+}
+.cont-two{
+    display: flex;
+}
+.card-three hr{
+    width: 120px;
+    height: 0px;
+    margin-left: 460px;
+    margin-top: 40px;
+}
+.card-three p{
+    width: 471px;
+    height: 173px;
+
+    font-family: Candara;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+    text-align: center;
+
+    /* white */
+
+    color: #FFFFFF;
+    margin-left: 285px;
+    margin-top: 40px;
+
+}
+.card-three button{
+    width: 280px;
+    height: 50px;
+    background: none;
+    border: 0.5px solid white;
+    margin-left: 380px;
+    margin-top: 75px;
+
+    font-family: Candara;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+}
+.cont-three{
+    width: 1920px;
+    height: 1289px;
+
+}
+.cont-three h3{
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 100;
+
+    /* white */
+    color: #FFFFFF;
+    margin-top: 25px;
+
+}
+.cont-three p{
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 16px;
+    line-height: 19px;
+
+
+    /* light-gray */
+
+    color: #D0D0D0;
+    margin-top: 10px;
+}
+.cont-three h2{
+
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* white */
+
+    color: #FFFFFF;
+    margin-top: 120px;
+}
+.cont-three hr{
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-top: 41px;
+    margin-left: 900px;
+}
+.card-four{
+    display: flex;
+    margin-left: 405px;
+    margin-top: 81px;
+    gap: 23px;
+}
+.cont-five{
+    width: 1920px;
+    height: 362px;
+    left: 0px;
+    top: 3553px;
+    background: #0F0F0F;
+}
+.cont-five h3{
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* white */
+
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+.cont-five hr{
+    width: 120px;
+    height: 0px;
+    margin-left: 900px;
+    margin-top: 40px;
+}
+.logos{
+    margin-top: 40px;
+    margin-left: 405px;
+}
+.cont-five{
+    width: 1920px;
+    height: 362px;
+    left: 0px;
+    top: 3553px;
+    background: #0F0F0F;
+}
+.cont-five h3{
+    font-family: 'PlayfairDisplay-Bold';
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+
+    /* white */
+
+    color: #FFFFFF;
+    padding-top: 60px;
+}
+.cont-five hr{
+    width: 120px;
+    height: 0px;
+    margin-left: 900px;
+    margin-top: 40px;
+}
+.imgs{
+    margin-top: 40px;
+    margin-left: 405px;
+}
+.footer{
+    background: url("imgs/foot.png");
+    width: 1920px;
+    height: 400px;
+    display: flex;
+}
+.one-text h2{
+
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-weight: 100;
+    /* white */
+
+    color: #FFFFFF;
+}
+.one-text p{
+    width: 350px;
+    height: 147px;
+    font-family: Candara;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+
+    /* white */
+
+    color: #FFFFFF;
+    margin-top: 40px;
+}
+.two-text h2{
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-weight: 100;
+    /* white */
+
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+.two-text button{
+    background: black;
+    border: none;
+    font-family: Candara;
+    color: #D0D0D0;
+}
+.three-text h2{
+    font-family: 'PlayfairDisplay-Regular';
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    font-weight: 100;
+    /* white */
+
+    color: #FFFFFF;
+    margin-top: 80px;
+    margin-left: 92px;
+}
+.three-text p{
+    font-family: Candara;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+
+
+    /* white */
+
+    color: #FFFFFF;
+    margin-left: 92px;
+    margin-top: 40px;
+}
+.mini-foot{
+    width: 1920px;
+    height: 50px;
+}
+.mini-foot h3{
+    font-family: Candara;
+    font-size: 16px;
+    color: #969696;
+    text-align: center;
+    margin-top: 30px;
+}
